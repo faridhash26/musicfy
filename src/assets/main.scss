@@ -2,3 +2,14 @@
 @import "./general/mixin.scss";
 @import "./general/animation.scss";
 @import "./custom/custom";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
